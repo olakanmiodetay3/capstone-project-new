@@ -1,0 +1,41 @@
+.bg-blue {
+  background-color: #543ee0;
+}
+.text-blue {
+  color: #543ee0;
+}
+.border-purple {
+  border: 0.5px solid #543ee0;
+}
+
+.background-image {
+  z-index: -1;
+}
+.overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.content {
+  z-index: 1;
+}
+.content > * {
+  mix-blend-mode: difference; /* This can blend light colors with dark background */
+}
+.log-out-text {
+  color: #ff1400;
+}
+.bg-light-purple {
+  background-color: #543ee080;
+}
+
+.bg-pink {
+  background-color: #ffedcc80;
+}
+.full-screen {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  background-color: #f0f0f0;
+  z-index: 10;
+}
